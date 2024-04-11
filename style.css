@@ -1,0 +1,152 @@
+@font-face {
+    font-family: outfit;
+    src: url(/recipe-page-main/assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family:youngserif ;
+    src: url(/recipe-page-main/assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+.attribution{
+    font-size: 13px; text-align: center; 
+    margin-bottom:1rem  ;
+    cursor: pointer;
+}
+  .attribution a { color: hsl(228, 45%, 44%); }
+
+
+*{
+    box-sizing: border-box;
+    font-family: outfit;
+}
+
+body{
+    background-color: hsl(30, 54%, 90%);
+   
+}
+
+img {
+    max-width: 100%;
+    padding: 15px;
+    margin-top: 10px ;
+    border-radius: 30px;
+  }
+
+.container{
+    max-width: 700px;
+    margin-inline: auto;
+    background-color: white;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    padding: 0.7rem;
+}
+.information{
+    padding: 10px;
+}
+.information p{
+    color:  hsl(30, 10%, 34%)
+}
+
+.Preparation{
+    padding: 10px;
+    border-radius: 15px;
+    max-width: 650px;
+    margin-left: 20px;
+    background-color:  hsl(330, 100%, 98%);
+   
+}
+.Preparation strong{
+    color: hsl(30, 10%, 34%);
+    font-weight: bolder;
+}
+.Preparation h3{
+    color: hsl(332, 51%, 32%);
+}
+.Preparation ul li{
+    color: hsl(14, 45%, 36%);
+}
+.Preparation ul li span{
+    color: hsl(30, 10%, 34%);
+}
+ul{
+   color: hsl(14, 45%, 36%);
+}
+ul li {
+   color: hsl(30, 10%, 34%);
+   line-height: 2rem;
+   padding-left: 10px;
+}
+h1{
+    font-family: Young Serif;
+    font-size: 700;
+    color: hsl(24, 5%, 18%);}
+h2{
+   color: hsl(14, 45%, 36%);
+   font-family: Young Serif;
+   font-size: 700;
+}
+h2, h3{
+    padding-left:15px ;
+    
+}
+p{ font-size: 16px;
+    line-height: 2.5rem;
+    font-family: outfit;
+}
+
+.Ingredients{
+    padding: 10px;
+}
+.Ingredients ul li{
+    color: hsl(14, 45%, 36%);
+}
+.Ingredients ul li span{
+    color: hsl(30, 10%, 34%);
+}
+
+
+.Instructions{
+    padding: 10px;
+    border-bottom:  1px solid hsl(30, 18%, 87%);
+    border-top:  1px solid hsl(30, 18%, 87%);
+    
+}
+.Instructions ol li{
+    padding: 10px;
+    line-height: 1.5rem;
+    color: hsl(14, 45%, 36%);
+}
+.Instructions ol li strong{
+    font-size: bolder;
+    color: hsl(30, 10%, 34%);
+    
+}
+.Instructions ol li span{
+    color: hsl(30, 10%, 34%);
+}
+.nutrition{
+    padding: 10px;
+  
+
+}
+.nutrition ul li{
+    display: flex;
+    justify-content: space-around; 
+    padding: 0.5rem 0;
+    border-bottom:  1px solid hsl(30, 18%, 87%);
+    text-align: left;
+
+}
+
+.nutrition ul li:last-child{
+    border-bottom: none;
+} .nutrition ul li span{
+    color: hsl(14, 45%, 36%);
+}
+.nutrition p {
+    padding: 10px;
+    margin-left: 10px;
+    color: hsl(30, 10%, 34%);
+}
+
+
+ 
